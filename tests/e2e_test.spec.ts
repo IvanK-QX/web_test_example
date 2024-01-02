@@ -28,6 +28,4 @@ test('e2e flow', async ({page}) => {
   await app.mainPage.clickCheckoutBtn()
   await app.mainPage.fillCountryFiled()
   await app.mainPage.clickPlaceOrderButton()
-
-
 })

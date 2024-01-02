@@ -1,7 +1,7 @@
 import { Page } from '@playwright/test';
 import { LoginPage } from './login_page';
 import { MainPage } from './main_page';
-import { SignUpPage } from './sing-up.page';
+import { SignUpPage } from './singUp_page';
 
 //app manager
 export class App {

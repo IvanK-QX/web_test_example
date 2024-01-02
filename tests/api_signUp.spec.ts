@@ -18,12 +18,13 @@ test.describe('API Sign Up', () => {
         const apiUtils = new ApiUtils(apiContext)
         const createNewUser = await apiUtils.createUser(`${testData.appUrl}/${testData.signUpApiUrl}`, testData.secondEmail)
         const loginUser = await apiUtils.loginUser(`${testData.appUrl}/${testData.loginApiUrl}`, createNewUser.email)
-
+        await page.goto(`${testData.appUrl}/client`)
         page.addInitScript(value => {
             window.localStorage.setItem('token', value)
         }, loginUser.token);
 
-        await page.goto(`${testData.appUrl}/client/`)
+        await page.goto(`${testData.appUrl}/client`)
+        await page.waitForTimeout(5000)
         await page.waitForLoadState('networkidle')
     })
 })
