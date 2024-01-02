@@ -1,0 +1,60 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "children" : [ {
+    "name" : "fv-az529-504",
+    "children" : [ {
+      "name" : "fv-az529-504-2377-playwright-worker-2",
+      "children" : [ {
+        "name" : "e2e flow",
+        "uid" : "808463e72a60fad2",
+        "parentUid" : "7862f00ecd38c5ba80c5adc948a0da2e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704206667131,
+          "stop" : 1704206677272,
+          "duration" : 10141
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chromium" ]
+      } ],
+      "uid" : "7862f00ecd38c5ba80c5adc948a0da2e"
+    }, {
+      "name" : "fv-az529-504-2377-playwright-worker-0",
+      "children" : [ {
+        "name" : "Create User From API",
+        "uid" : "438ac393f4ef701a",
+        "parentUid" : "e08feed9721c3969692452a81c1423fb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704206667150,
+          "stop" : 1704206673234,
+          "duration" : 6084
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chromium" ]
+      } ],
+      "uid" : "e08feed9721c3969692452a81c1423fb"
+    }, {
+      "name" : "fv-az529-504-2377-playwright-worker-1",
+      "children" : [ {
+        "name" : "Login user from API",
+        "uid" : "4c19362428dbbe0e",
+        "parentUid" : "b9a9b2dc411c8eb1255004f5ec4a5a10",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704206667220,
+          "stop" : 1704206679528,
+          "duration" : 12308
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chromium" ]
+      } ],
+      "uid" : "b9a9b2dc411c8eb1255004f5ec4a5a10"
+    } ],
+    "uid" : "5b8c98a2e0ff8b944fc7ce2243a1416f"
+  } ],
+  "name" : "timeline"
+}
