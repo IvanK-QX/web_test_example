@@ -1,0 +1,31 @@
+[ {
+  "uid" : "dbbbec56a258e8d",
+  "name" : "Login user from API",
+  "time" : {
+    "start" : 1704206362141,
+    "stop" : 1704206374173,
+    "duration" : 12032
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "af1fcb614e84a397",
+  "name" : "Create User From API",
+  "time" : {
+    "start" : 1704206362071,
+    "stop" : 1704206369339,
+    "duration" : 7268
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "853fa0714e41af80",
+  "name" : "e2e flow",
+  "time" : {
+    "start" : 1704206362108,
+    "stop" : 1704206372378,
+    "duration" : 10270
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
