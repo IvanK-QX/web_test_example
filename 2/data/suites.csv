@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"failed","Tue Jan 02 14:36:13 GMT 2024","Tue Jan 02 14:36:14 GMT 2024","413","chromium","api_signUp.spec.ts","API Sign Up","","","Create User From API",""
+"failed","Tue Jan 02 14:36:13 GMT 2024","Tue Jan 02 14:36:14 GMT 2024","382","chromium","api_signUp.spec.ts","API Sign Up","","","Login user from API",""
+"failed","Tue Jan 02 14:36:13 GMT 2024","Tue Jan 02 14:36:14 GMT 2024","494","chromium","e2e_test.spec.ts","","","","e2e flow",""
