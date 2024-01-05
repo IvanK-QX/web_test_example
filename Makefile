@@ -7,7 +7,7 @@ node:
 ##############################
 # Run all Tests
 ##############################
-test single:
+single:
 	npx playwright test --workers=1
 
 ##############################

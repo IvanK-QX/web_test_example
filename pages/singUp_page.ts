@@ -44,6 +44,7 @@ export class SignUpPage {
 
     async inputEmailField(email: string) {
         await this.emailFieldLocator.fill(email)
+        return email
     }
 
     async inputPhoneField(phone: string) {

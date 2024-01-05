@@ -4,6 +4,8 @@ import { testData } from '../utils/dataset';
 import { App } from '../pages/app';
 
 test.describe('API Sign Up', () => {
+
+    // create user from API and login from UI
     test('Create User From API', async({page}) => {
         const apiContext = await request.newContext()
         const app = new App(page)
@@ -13,6 +15,7 @@ test.describe('API Sign Up', () => {
         await app.loginPage.loginToTheApp(createNewUser.email, testData.pass)
     })
 
+    // token injection
     test('Login user from API', async({page}) => {
         const apiContext = await request.newContext()
         const apiUtils = new ApiUtils(apiContext)
