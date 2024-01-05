@@ -1,0 +1,41 @@
+[ {
+  "uid" : "5a7455658250dfdf",
+  "name" : "Login user from API",
+  "time" : {
+    "start" : 1704470052287,
+    "stop" : 1704470065344,
+    "duration" : 13057
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f5c4564fba4098f7",
+  "name" : "Registration flow",
+  "time" : {
+    "start" : 1704470052320,
+    "stop" : 1704470060273,
+    "duration" : 7953
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "51ba22b677567c5d",
+  "name" : "e2e flow",
+  "time" : {
+    "start" : 1704470052338,
+    "stop" : 1704470063799,
+    "duration" : 11461
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a9834e3545374197",
+  "name" : "Create User From API",
+  "time" : {
+    "start" : 1704470052286,
+    "stop" : 1704470059646,
+    "duration" : 7360
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

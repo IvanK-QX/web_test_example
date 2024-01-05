@@ -1,0 +1,77 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "children" : [ {
+    "name" : "fv-az564-890",
+    "children" : [ {
+      "name" : "fv-az564-890-2386-playwright-worker-1",
+      "children" : [ {
+        "name" : "Login user from API",
+        "uid" : "5a7455658250dfdf",
+        "parentUid" : "19b7d7614c09df61f29175ce50eef1f7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704470052287,
+          "stop" : 1704470065344,
+          "duration" : 13057
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chromium" ]
+      } ],
+      "uid" : "19b7d7614c09df61f29175ce50eef1f7"
+    }, {
+      "name" : "fv-az564-890-2386-playwright-worker-0",
+      "children" : [ {
+        "name" : "Create User From API",
+        "uid" : "a9834e3545374197",
+        "parentUid" : "2574a0444c54c1149aa66e28820fb743",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704470052286,
+          "stop" : 1704470059646,
+          "duration" : 7360
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chromium" ]
+      } ],
+      "uid" : "2574a0444c54c1149aa66e28820fb743"
+    }, {
+      "name" : "fv-az564-890-2386-playwright-worker-3",
+      "children" : [ {
+        "name" : "e2e flow",
+        "uid" : "51ba22b677567c5d",
+        "parentUid" : "1316487aa8f0669adc88e048de5e7246",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704470052338,
+          "stop" : 1704470063799,
+          "duration" : 11461
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chromium" ]
+      } ],
+      "uid" : "1316487aa8f0669adc88e048de5e7246"
+    }, {
+      "name" : "fv-az564-890-2386-playwright-worker-2",
+      "children" : [ {
+        "name" : "Registration flow",
+        "uid" : "f5c4564fba4098f7",
+        "parentUid" : "3f2d237cca140cb861f278c85a437463",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704470052320,
+          "stop" : 1704470060273,
+          "duration" : 7953
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chromium" ]
+      } ],
+      "uid" : "3f2d237cca140cb861f278c85a437463"
+    } ],
+    "uid" : "1c30b05913352b94ea75cff0855bdaf9"
+  } ],
+  "name" : "timeline"
+}
