@@ -1,0 +1,73 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "chromium",
+    "children" : [ {
+      "name" : "api_signUp.spec.ts",
+      "children" : [ {
+        "name" : "API Sign Up",
+        "children" : [ {
+          "name" : "Login user from API",
+          "uid" : "4c30c3bd47a07c64",
+          "parentUid" : "3ad4fba0cabb1c372c35da075439ea6d",
+          "status" : "passed",
+          "time" : {
+            "start" : 1706201007901,
+            "stop" : 1706201020658,
+            "duration" : 12757
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "chromium" ]
+        }, {
+          "name" : "Create User From API",
+          "uid" : "1376e7650e7562e9",
+          "parentUid" : "3ad4fba0cabb1c372c35da075439ea6d",
+          "status" : "passed",
+          "time" : {
+            "start" : 1706201007902,
+            "stop" : 1706201015997,
+            "duration" : 8095
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "chromium" ]
+        } ],
+        "uid" : "3ad4fba0cabb1c372c35da075439ea6d"
+      } ],
+      "uid" : "c7c784d7f1bc1b7192e572bb7e73d93d"
+    }, {
+      "name" : "e2e_test.spec.ts",
+      "children" : [ {
+        "name" : "Registration flow",
+        "uid" : "bb447f0c79c292f9",
+        "parentUid" : "4d708818bbc58df576e89cb6044e55ab",
+        "status" : "passed",
+        "time" : {
+          "start" : 1706201007905,
+          "stop" : 1706201016195,
+          "duration" : 8290
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chromium" ]
+      }, {
+        "name" : "e2e flow",
+        "uid" : "248586049430291e",
+        "parentUid" : "4d708818bbc58df576e89cb6044e55ab",
+        "status" : "passed",
+        "time" : {
+          "start" : 1706201007941,
+          "stop" : 1706201018642,
+          "duration" : 10701
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chromium" ]
+      } ],
+      "uid" : "4d708818bbc58df576e89cb6044e55ab"
+    } ],
+    "uid" : "36c900977e1d8b81a2c6893cc82bfc01"
+  } ],
+  "name" : "suites"
+}

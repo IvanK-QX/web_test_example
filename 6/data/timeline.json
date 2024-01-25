@@ -1,0 +1,77 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "children" : [ {
+    "name" : "fv-az1532-701",
+    "children" : [ {
+      "name" : "fv-az1532-701-2414-playwright-worker-1",
+      "children" : [ {
+        "name" : "Login user from API",
+        "uid" : "4c30c3bd47a07c64",
+        "parentUid" : "d068627feef64559ec689e558564d3a9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1706201007901,
+          "stop" : 1706201020658,
+          "duration" : 12757
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chromium" ]
+      } ],
+      "uid" : "d068627feef64559ec689e558564d3a9"
+    }, {
+      "name" : "fv-az1532-701-2414-playwright-worker-0",
+      "children" : [ {
+        "name" : "Create User From API",
+        "uid" : "1376e7650e7562e9",
+        "parentUid" : "2b5acbcbb23d982bc39e48560aece4c1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1706201007902,
+          "stop" : 1706201015997,
+          "duration" : 8095
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chromium" ]
+      } ],
+      "uid" : "2b5acbcbb23d982bc39e48560aece4c1"
+    }, {
+      "name" : "fv-az1532-701-2414-playwright-worker-2",
+      "children" : [ {
+        "name" : "Registration flow",
+        "uid" : "bb447f0c79c292f9",
+        "parentUid" : "bdb5ae0d15a7f3fbad61254de5deafb9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1706201007905,
+          "stop" : 1706201016195,
+          "duration" : 8290
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chromium" ]
+      } ],
+      "uid" : "bdb5ae0d15a7f3fbad61254de5deafb9"
+    }, {
+      "name" : "fv-az1532-701-2414-playwright-worker-3",
+      "children" : [ {
+        "name" : "e2e flow",
+        "uid" : "248586049430291e",
+        "parentUid" : "855a5e896871e4bdf4676c642d6abd4e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1706201007941,
+          "stop" : 1706201018642,
+          "duration" : 10701
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chromium" ]
+      } ],
+      "uid" : "855a5e896871e4bdf4676c642d6abd4e"
+    } ],
+    "uid" : "de878ef2533b768bc83d2e3986562c02"
+  } ],
+  "name" : "timeline"
+}
